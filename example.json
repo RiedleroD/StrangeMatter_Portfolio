@@ -1,0 +1,20 @@
+{
+"bio":"Your biography / greeter text",
+"pfp":"Link to your profile picture",
+"imgs":[
+  [
+    "Image Name 1",
+    "Link to Preview 1",
+    "Link to Full Image 1",
+    ["some collection","another collection"],
+    "Description of the image. Line breaks are inserted with \n. Note the usage of double-line breaks like so: \n\n.",
+  ],
+  [
+    "Image Name 2",
+    "Link to Preview 2",
+    "Link to Full Image 2",
+    ["some collection","a third collection"],
+    "Also, if double quotes are to be inserted, they have to be prefixed with a backslash like so: \". Same works for normal backslashes: \\"
+  ]
+]
+}
