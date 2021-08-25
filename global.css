@@ -1,0 +1,52 @@
+/*global style*/
+body{
+	background-color:#151515;
+	color:#CCC;
+	margin:0;
+}
+main{
+	margin:0.5em;
+}
+a{color:#418BA4}
+a:hover{color:#6AC}
+a:visited{color:#669}
+a:visited:hover{color:#88C}
+/*navbar style*/
+nav{
+	position:sticky;
+	top:0;
+	width:100%;
+	display:flex;
+	background-color:#333;
+}
+nav>a:first-child{
+	margin-right:auto;
+	border-right:solid 1px #59B;
+	border-radius:0 0 0.5em 0;
+}
+nav>a:not(:first-child){
+	border-left:solid 1px #59B;
+	border-radius:0 0 0 0.5em;
+}
+nav>a:not(:first-child):not(:last-child){
+	padding-right:0.9em;
+	margin-right:-0.5em;
+}
+nav>a,
+nav>a:visited{
+	padding:0.3em 0.5em;
+	border-bottom:solid 1px #59B;
+	text-decoration:none;
+	color:#CCC;
+	background-color:#333;
+}
+nav>a:hover,
+nav>a:visited:hover{
+	background-color:#444;
+	color:#FFF;
+	border-color:#6AC;
+}
+*:focus-visible{
+	outline:none;
+	box-shadow:0 0 0.3rem 1px #418BA4,0 0 0.1rem 1px #FFF;
+}
