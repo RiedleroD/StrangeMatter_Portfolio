@@ -12,4 +12,35 @@ function parse_source($src){
 		return $src;
 	}
 }
+function generate_picture($src){
+	if(is_array($src)){
+		return "<picture>".picture_sources_from_array($src)."</picture>";
+	}else{
+		return "<img src=\"".parse_source($src)."\"/>";
+	}
+}
+function picture_sources_from_array($arr){
+	$out = "";
+	foreach($arr as $src){
+		$ext = explode('.',$src)[-1];
+		$mime="\" type=\"image/";
+		switch($ext){
+			case "jpg":
+			case "jpeg":
+				$mime.="jpeg";
+				break;
+			case "png":
+				$mime.="png";
+				break;
+			case "webp":
+				$mime.="webp";
+				break;
+			default:
+				$mime="";
+				break;
+		}
+		$out.="<source srcset=\"".parse_source($src).$mime."\"/>";
+	}
+	return $out;
+}
 ?>

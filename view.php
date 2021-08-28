@@ -79,7 +79,7 @@
 			<div id="topview">
 				<div id="imgview">
 					<?php
-						echo "<h2>$title</h2><img src=\"$postview\"/>";
+						echo "<h2>$title</h2>".generate_picture($postview);
 					?>
 				</div>
 				<div id="tagntext">

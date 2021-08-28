@@ -27,8 +27,7 @@
 				foreach($data["imgs"] as list($title,$preview,$postview,$collections,$desc)){
 					$i--;
 					if($filter=="all" or in_array($filter,$collections,true)){
-						$preview=parse_source($preview);
-						echo "<a href=\"./view.php?id=$i\"><img src=\"$preview\"/><span>$title</span></a>";
+						echo "<a href=\"./view.php?id=$i\">".generate_picture($preview)."<span>$title</span></a>";
 					}
 				}
 			?>

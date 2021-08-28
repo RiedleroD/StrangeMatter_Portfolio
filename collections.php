@@ -34,8 +34,7 @@
 						$preview=array_shift($previews);
 					}while(count($previews)>0 and in_array($preview,$seen_previews));
 					array_push($seen_previews,$preview);
-					$preview=parse_source($preview);
-					echo "<a href=\"./gallery.php?c=$collection\"><img src=\"$preview\"/><span>$collection</span></a>";
+					echo "<a href=\"./gallery.php?c=$collection\">".generate_picture($preview)."<span>$collection</span></a>";
 				}
 			?>
 		</main>

@@ -17,7 +17,8 @@ main>a:visited:hover{
 	color:#FFF;
 	background-color:#444;
 }
-main>a>img{
+main>a>img,
+main>a>picture{
 	height:10em;
 	width:auto;
 	margin:0.3em;
