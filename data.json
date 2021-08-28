@@ -24,6 +24,13 @@
 	"Pronounced Tie-Parse-On (taɪpɑːsən)\nThe name comes from Taipan (a type of snake), Arson and Poison.\n\nHeight: 177cm\nWeight: 8kg\nType: Fire/Poison\nAbility: Smouldering Smog\nSpecial: Blackened Burst\nStar Move: Reign of Arson"
 	],
 	[
+	"Therracine",
+	"$therracine_preview.jpg",
+	"/pokemon_RU/imgs/pkmn/therracine.jpg",
+	["pokemon","pokemon rural/urban"],
+	"Height: 116cm\nAbility: Sandy Petals"
+	],
+	[
 	"Shrubpy",
 	"$shrubpy_preview.jpg",
 	"/pokemon_RU/imgs/pkmn/shrubpy.jpg",
