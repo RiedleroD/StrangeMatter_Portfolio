@@ -17,6 +17,13 @@
 	""
 	],
 	[
+	"Starstruck Taiparson",
+	"$taiparson_starstruck_preview.jpg",
+	"/pokemon_RU/imgs/pkmn/taiparson_starstruck.jpg",
+	["pokemon","pokemon rural/urban"],
+	"Pronounced Tie-Parse-On (taɪpɑːsən)\nThe name comes from Taipan (a type of snake), Arson and Poison.\n\nType: Fire/Poison\nAbility: Smouldering Smog\nSpecial: Blackened Burst\nStar Move: Reign of Arson"
+	],
+	[
 	"Taiparson",
 	"$taiparson_preview.jpg",
 	"/pokemon_RU/imgs/pkmn/taiparson.jpg",
