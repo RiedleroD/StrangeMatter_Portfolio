@@ -14,7 +14,7 @@ function parse_source($src){
 }
 function generate_picture($src){
 	if(is_array($src)){
-		return "<picture>".picture_sources_from_array($src)."</picture>";
+		return "<picture>".picture_sources_from_array($src)."<img/></picture>";
 	}else{
 		return "<img src=\"".parse_source($src)."\"/>";
 	}
