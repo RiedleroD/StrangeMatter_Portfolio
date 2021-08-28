@@ -71,7 +71,7 @@
 		<?php 
 			include("navbar.php");
 			$id=$_GET["id"];
-			list($title,$preview,$postview,$collections,$desc)=$data["imgs"][(count($data)-$id)-1];
+			list($title,$preview,$postview,$collections,$desc)=$data["imgs"][(count($data)-$id)+1];
 			$postview=parse_source($postview);
 			//$preview=parse_source($preview); // not needed rn
 		?>
