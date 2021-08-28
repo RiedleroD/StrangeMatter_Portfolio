@@ -1,9 +1,27 @@
 {
-"bio":"I'm this and that, and since I draw like picasso, Riedler made me a website. According to all known laws of aviation, a bee shouldn't be able to fly. The bee, of course, flies anyway, because it doesn't care about what humans think is impossible.\nBlah Blah placeholder text",
+"bio":"TODO: write bio",
 "pfp":"/favicon.svg",
 "imgs":[
-	["Youtube Icon","/sfto/rwicons/yt.svg","/sfto/rwicons/yt.svg",["icons","vector art"],"Small icon which represents youtube\n\nI like it :)"],
-	["Riedlers Logo","/favicon.svg","/favicon.svg",["icons","vector art"],"My own Logo. This has gone through one iteration, although the color pallette was always the same.\n\nI like it :)"],
-	["Taiparson","$taiparson_preview.jpg","/pokemon_RU/imgs/pkmn/taiparson.jpg",["pokemon","raster art"],"Bingo Bongo"]
+	[
+	"The Moon",
+	"$majoras-moon_preview.jpg",
+	"$majoras-moon.png",
+	["oblivion"],
+	"Description coming"
+	],
+	[
+	"Qutwo",
+	"$qutwo_preview.jpg",
+	"$qutwo.png",
+	["oblivion"],
+	"Desc is besc"
+	],
+	[
+	"Taiparson",
+	"$taiparson_preview.jpg",
+	"/pokemon_RU/imgs/pkmn/taiparson.jpg",
+	["pokemon","pokemon rural"],
+	"Pronounced Tie-Parse-On (taɪpɑːsən)\nThe name comes from Taipan (a type of snake), Arson and Poison.\n\nHeight: 177cm\nWeight: 8kg\nType: Fire/Poison\nAbility: Smouldering Smog\nSpecial: Blackened Burst\nStar Move: Reign of Arson"
+	]
 ]
 }
