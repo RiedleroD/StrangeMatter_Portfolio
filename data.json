@@ -24,6 +24,13 @@
 	"Pronounced Tie-Parse-On (taɪpɑːsən)\nThe name comes from Taipan (a type of snake), Arson and Poison.\n\nHeight: 177cm\nWeight: 8kg\nType: Fire/Poison\nAbility: Smouldering Smog\nSpecial: Blackened Burst\nStar Move: Reign of Arson"
 	],
 	[
+	"Hissarette",
+	"$hissarette_preview.jpg",
+	"/pokemon_RU/imgs/pkmn/hissarette.jpg",
+	["pokemon","pokemon rural/urban"],
+	"Pronounced Hiss-ah-ret\nThe name comes from hiss and cigarette\n\nHeight: 132cm\nWeight: 5kg\nType: Fire/Poison\nAbility: Smouldering Smog"
+	],
+	[
 	"Budletar",
 	"$budletar_preview.jpg",
 	"/pokemon_RU/imgs/pkmn/budletar.jpg",
