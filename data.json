@@ -24,6 +24,20 @@
 	"Pronounced Tie-Parse-On (taɪpɑːsən)\nThe name comes from Taipan (a type of snake), Arson and Poison.\n\nHeight: 177cm\nWeight: 8kg\nType: Fire/Poison\nAbility: Smouldering Smog\nSpecial: Blackened Burst\nStar Move: Reign of Arson"
 	],
 	[
+	"Starstruck Thyramire",
+	"$thyramire_starstruck_preview.jpg",
+	"/pokemon_RU/imgs/pkmn/thyramire_starstruck.jpg",
+	["pokemon","pokemon rural/urban"],
+	"Type: Grass/Ground\nAbility: Sandy Petals\nSpecial: Muddy Dash\nStar Move: River of Dirt"
+	],
+	[
+	"Thyramire",
+	"$thyramire_preview.jpg",
+	"/pokemon_RU/imgs/pkmn/thyramire.jpg",
+	["pokemon","pokemon rural/urban"],
+	"Height: 118cm\nType: Grass/Ground\nAbility: Sandy Petals\nSpecial: Muddy Dash\nStar Move: River of Dirt"
+	],
+	[
 	"Therracine",
 	"$therracine_preview.jpg",
 	"/pokemon_RU/imgs/pkmn/therracine.jpg",
