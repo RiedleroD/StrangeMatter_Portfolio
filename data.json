@@ -25,8 +25,8 @@
 	],
 	[
 	"Taiparson",
-	["$taiparson_preview.webp","$taiparson_preview.jpg"],
-	"/pokemon_RU/imgs/pkmn/taiparson.jpg",
+	["$taiparson_preview.avif","$taiparson_preview.webp","$taiparson_preview.jpg"],
+	["$taiparson.avif","/pokemon_RU/imgs/pkmn/taiparson.jpg"],
 	["pokemon","pokemon rural/urban"],
 	"Pronounced Tie-Parse-On (taɪpɑːsən)\nThe name comes from Taipan (a type of snake), Arson and Poison.\n\nHeight: 177cm\nWeight: 8kg\nType: Fire/Poison\nAbility: Smouldering Smog\nSpecial: Blackened Burst\nStar Move: Reign of Arson"
 	],
