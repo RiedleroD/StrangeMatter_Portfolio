@@ -35,6 +35,9 @@ function picture_sources_from_array($arr){
 			case "webp":
 				$mime.="webp";
 				break;
+			case "avif":
+				$mime.="avif";
+				break;
 			default:
 				$mime="";
 				break;
