@@ -28,14 +28,14 @@
 	"$therracine_preview.jpg",
 	"/pokemon_RU/imgs/pkmn/therracine.jpg",
 	["pokemon","pokemon rural/urban"],
-	"Height: 116cm\nAbility: Sandy Petals"
+	"Height: 116cm\nType: Grass/Ground\nAbility: Sandy Petals"
 	],
 	[
 	"Shrubpy",
 	"$shrubpy_preview.jpg",
 	"/pokemon_RU/imgs/pkmn/shrubpy.jpg",
 	["pokemon","pokemon rural/urban"],
-	"Height:88cm\nAbility: Sandy Petals"
+	"Height: 88cm\nType: Grass/Ground\nAbility: Sandy Petals"
 	]
 ]
 }
