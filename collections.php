@@ -16,7 +16,8 @@
 			<h2>Collections</h2>
 			<?php
 				$firstimg=$data["imgs"][0][1];
-				echo "<a href=\"./gallery.php\"><img src=\"$firstimg\"/><span>All drawings</span></a>";
+				$firstimg_parsed=parse_source($firstimg);
+				echo "<a href=\"./gallery.php\"><img src=\"$firstimg_parsed\"/><span>All drawings</span></a>";
 				$seen_collections=array();
 				foreach($data["imgs"] as list($title,$preview,$postview,$collections,$desc)){
 					foreach($collections as $collection){
