@@ -3,7 +3,7 @@
 	<a href="./gallery.php">Gallery</a>
 	<a href="./collections.php">Collections</a>
 	<?php
-		include("text_helper.php");
+		include("helper.php");
 		$data = get_data();
 		$rand = rand(0,count($data)-1);
 		echo "<a href=\"./view.php?id=$rand\">Random Image</a>"
