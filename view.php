@@ -24,7 +24,7 @@
 				border-radius:0.3em;
 				margin:0 0.5em 0.5em 0;
 			}
-			#imgview>img{
+			#imgview img{
 				max-height:70vh;
 				max-width:50vw;
 				border-radius:0.3em;
