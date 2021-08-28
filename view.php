@@ -72,6 +72,8 @@
 			include("navbar.php");
 			$id=$_GET["id"];
 			list($title,$preview,$postview,$collections,$desc)=$data["imgs"][count($data)-$id];
+			$postview=parse_source($postview);
+			//$preview=parse_source($preview); // not needed rn
 		?>
 		<main>
 			<div id="topview">
