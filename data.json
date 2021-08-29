@@ -17,6 +17,13 @@
 	""
 	],
 	[
+	"King Ghidorah",
+	["$ghidorah_preview.avif","$ghidorah_preview.webp","$ghidorah_preview.jpg"],
+	"$ghidorah.jpg",
+	["oblivion"],
+	"PROJECT OBLIVION #02\n\nName: King Ghidorah\nSex: m\nClass: Aerial\nSize: maximum\nWeight: light\n\nI only gave him arms so he can have a close range attack"
+	],
+	[
 	"Mothra",
 	["$mothra_preview.avif","$mothra_preview.webp","$mothra_preview.jpg"],
 	"$mothra.jpg",
