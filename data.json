@@ -17,6 +17,13 @@
 	""
 	],
 	[
+	"Anguirus",
+	["$anguirus_preview.avif","$anguirus_preview.wepb","$anguirus_preview.jpg"],
+	"$anguirus.jpg",
+	["oblivion"],
+	"PROJECT OBLIVION #05\n\nName: Anguirus\nSex: m\nClass: [PHYSICAL]\nSize: medium\nWeight: light\n\nSpikey turtle armadillo"
+	],
+	[
 	"Godzilla",
 	["$godzilla_preview.avif","$godzilla_preview.webp","$godzilla_preview.jpg"],
 	"$godzilla.jpg",
