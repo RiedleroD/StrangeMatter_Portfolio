@@ -17,6 +17,13 @@
 	""
 	],
 	[
+	"Kumunga",
+	["$kumunga_preview.avif","$kumunga_preview.webp","$kumunga_preview.jpg"],
+	"$kumunga.jpg",
+	["oblivion"],
+	"PROJECT OBLIVION #08\n\nName: Kumunga\nSex: f\nClass: [PHYSICAL]\nSize: medium\nWeight: leight\n\n*Australia intensifies*"
+	],
+	[
 	"Gigan",
 	["$gigan_preview.avif","$gigan_preview.webp","$gigan_preview.jpg"],
 	"$gigan.jpg",
