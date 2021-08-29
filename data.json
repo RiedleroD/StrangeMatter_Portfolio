@@ -17,6 +17,13 @@
 	""
 	],
 	[
+	"Godzilla",
+	["$godzilla_preview.avif","$godzilla_preview.webp","$godzilla_preview.jpg"],
+	"$godzilla.jpg",
+	["oblivion"],
+	"PROJECT OBLIVION #04\n\nName: Godzilla\nSex: m\nClass: (HYDRAULIC)\nSize: medium\nWeight: heavy\n\nNow made with chemical waste instead of radiation and nuclear energy"
+	],
+	[
 	"Rodan",
 	["$rodan_preview.avif","$rodan_preview.webp","$rodan_preview.jpg"],
 	"$rodan.jpg",
