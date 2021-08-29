@@ -17,6 +17,13 @@
 	""
 	],
 	[
+	"King Kong",
+	["$kingkong_preview.avif","$kingkong_preview.webp","$kingkong_preview.jpg"],
+	"$kingkong.jpg",
+	["oblivion"],
+	"PROJECT OBLIVION #10\n\nName: King Kong\nSex: m\nClass: [PHYSICAL]\nSize: medium\nWeight: light\n\nGo back, I want to be monke!"
+	],
+	[
 	"Battra",
 	["$battra_preview.avif","$battra_preview.webp","$battra_preview.jpg"],
 	"$battra.jpg",
