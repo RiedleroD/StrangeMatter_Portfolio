@@ -17,6 +17,13 @@
 	""
 	],
 	[
+	"Rodan",
+	["$rodan_preview.avif","$rodan_preview.webp","$rodan_preview.jpg"],
+	"$rodan.jpg",
+	["oblivion"],
+	"PROJECT OBLIVION #03\n\nName: Rodan\nSex: m\nClass: {BLAZING}\nSize: minimum\nWeight: light\n\nMolten chicken"
+	],
+	[
 	"King Ghidorah",
 	["$ghidorah_preview.avif","$ghidorah_preview.webp","$ghidorah_preview.jpg"],
 	"$ghidorah.jpg",
