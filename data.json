@@ -17,6 +17,13 @@
 	""
 	],
 	[
+	"Battra",
+	["$battra_preview.avif","$battra_preview.webp","$battra_preview.jpg"],
+	"$battra.jpg",
+	["oblivion"],
+	"PROJECT OBLIVION #09\n\nName: Battra\nSex: m\nClass: <AERIAL>\nSize: minimum\nWeight: light\n\nThe cool kind of edgy"
+	],
+	[
 	"Kumunga",
 	["$kumunga_preview.avif","$kumunga_preview.webp","$kumunga_preview.jpg"],
 	"$kumunga.jpg",
