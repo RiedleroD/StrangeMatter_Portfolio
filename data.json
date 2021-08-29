@@ -17,6 +17,13 @@
 	""
 	],
 	[
+	"Mothra",
+	["$mothra_preview.avif","$mothra_preview.webp","$mothra_preview.jpg"],
+	"$mothra.jpg",
+	["oblivion","pokemon"],
+	"PROJECT OBLIVION #01\n\nName: Mothra\nSex: f\nClass: <Aerial>\nSize: minimum\nWeight: light\n\nAbsolutely Graceful"
+	],
+	[
 	"Starstruck Taiparson",
 	"$taiparson_starstruck_preview.jpg",
 	"/pokemon_RU/imgs/pkmn/taiparson_starstruck.jpg",
