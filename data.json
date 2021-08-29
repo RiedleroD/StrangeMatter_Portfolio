@@ -17,6 +17,13 @@
 	""
 	],
 	[
+	"Biollante",
+	["$biollante_preview.avif","$biollante_preview.webp","$biollante_preview.jpg"],
+	"$biollante.jpg",
+	["oblivion"],
+	"PROJECT OBLIVION #06\n\nName: Biollante\nSex: f\nClass: (HYDRAULIC)\nSize: Maximum\nWeight: heavy\n\nBotany."
+	],
+	[
 	"Anguirus",
 	["$anguirus_preview.avif","$anguirus_preview.wepb","$anguirus_preview.jpg"],
 	"$anguirus.jpg",
