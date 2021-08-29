@@ -17,6 +17,13 @@
 	""
 	],
 	[
+	"Gigan",
+	["$gigan_preview.avif","$gigan_preview.webp","$gigan_preview.jpg"],
+	"$gigan.jpg",
+	["oblivion"],
+	"PROJECT OBLIVION #07\n\nName: Gigan\nSex: m\nClass: [PHYSICAL]\nSize: medium\nWeight: leight\n\nAlien cyborg penguin"
+	],
+	[
 	"Biollante",
 	["$biollante_preview.avif","$biollante_preview.webp","$biollante_preview.jpg"],
 	"$biollante.jpg",
