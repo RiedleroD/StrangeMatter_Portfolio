@@ -15,23 +15,34 @@ function parse_desc_text($desc){
 	$desc=preg_replace("/_([^<>]*)_/","<i>\\1</i>",$desc);
 	return $desc;
 }
+function assemble_ul($p){
+	$out="<ul>";
+	foreach($p as $item){
+		$out.="<li>".parse_desc_text($item)."</li>";
+	}
+	return $out."</ul>";
+}
+function assemble_aside($p){
+	$out="<aside>";
+	foreach($p as $key=>$val){
+		if(is_array($val)){
+			$val=assemble_ul($val);
+		}else{
+			$val=parse_desc_text($val);
+		}
+		$out.="<div>".parse_desc_text($key)."</div><div>$val</div>";
+	}
+	return $out."</aside>";
+}
 function parse_desc($desc){
 	if(is_array($desc)){
 		$out="";
 		foreach($desc as $p){//paragraphs
 			if(is_array($p)){
 				if(is_int(array_keys($p)[0])){
-					$out.="<ul>";
-					foreach($p as $item){
-						$out.="<li>".parse_desc_text($item)."</li>";
-					}
-					$out.="</ul>";
+					$out.=assemble_ul($p);
 				}else{
-					$out.="<aside>";
-					foreach($p as $key=>$val){
-						$out.="<div>".parse_desc_text($key)."</div><div>".parse_desc_text($val)."</div>";
-					}
-					$out.="</aside>";
+					$out.=assemble_aside($p);
 				}
 			}else{
 				$out.="<p>".parse_desc_text($p)."</p>";

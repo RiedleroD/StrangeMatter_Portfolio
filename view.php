@@ -40,9 +40,33 @@
 				text-align:justify;
 				text-align-last:left;
 			}
-			#tagntext>ul{
+			#tagntext ul{
 				margin:0.2em 0.2em;
 				padding-left:1em;
+				text-align:left;
+			}
+			#tagntext>aside{
+				display:inline-grid;
+				grid-template-columns:auto auto;
+				align-items:baseline;
+				margin:1em 0 1em -1em;
+				padding:0.3em 0.3em 0.3em 0.8em;
+				border-radius:0.3em;
+				background-color:#333;
+			}
+			#tagntext>aside>div{
+				display:flex;
+				padding:0 0.3em;
+			}
+			#tagntext>aside>div:nth-child(2n+1)::after{
+				content:':';
+			}
+			#tagntext>aside>div:nth-child(2n+1){
+				
+			}
+			#tagntext>aside>div:nth-child(2n){
+				text-align:center;
+				justify-content:center;
 			}
 			#tagbox{
 				float:right;
