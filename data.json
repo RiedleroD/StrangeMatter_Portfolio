@@ -17,6 +17,13 @@
 	""
 	],
 	[
+	"Titanosaurus",
+	["$titanosaurus_preview.avif","$titanosaurus_preview.webp","$titanosaurus_preview.jpg"],
+	"$titanosaurus.jpg",
+	["oblivion"],
+	"PROJECT OBLIVION #15\n\nName: Titanosaurus\nSex: m\nClass: (HYDRAULIC)\nSize: maximum\nWeight: light\n\nBurger King foot lettuce"
+	],
+	[
 	"Mecha Godzilla",
 	["$mechagodzilla_preview.avif","$mechagodzilla_preview.webp","$mechagodzilla_preview.jpg"],
 	"$mechagodzilla.jpg",
