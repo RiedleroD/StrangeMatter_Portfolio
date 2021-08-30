@@ -17,6 +17,13 @@
 	""
 	],
 	[
+	"Methuselah",
+	["$methuselah_preview.avif","$methuselah_preview.webp","$methuselah_preview.jpg"],
+	"$methuselah.jpg",
+	["oblivion"],
+	"PROJECT OBLIVION #19\n\nName: Methuselah\nSex: m\nClass: [PHYSICAL]\nSize: maximum\nWeight: heavy\n\nKinda sus"
+	],
+	[
 	"Behemoth",
 	["$behemoth_preview.avif","$behemoth_preview.webp","$behemoth_preview.jpg"],
 	"$behemoth.jpg",
