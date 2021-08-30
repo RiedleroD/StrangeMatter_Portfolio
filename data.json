@@ -17,6 +17,12 @@
 	""
 	],
 	[
+	"Megalon",
+	["$megalon_preview.avif","$megalon_preview.webp","$megalon_preview.jpg"],
+	"megalon.jpg",
+	"PROJECT OBLIVION #12\n\nName: Megalon\nSex: m\nClass: [PHYSICAL]\nSize: medium\nWeight: heavy\n\nI accidentally made him thicc"
+	],
+	[
 	"Muto",
 	["$muto_preview.avif","$muto_preview.webp","$muto_preview.jpg"],
 	"$muto.jpg",
