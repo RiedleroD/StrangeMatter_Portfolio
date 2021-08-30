@@ -244,7 +244,7 @@
 	"$thyramire_preview.jpg",
 	"/pokemon_RU/imgs/pkmn/thyramire.jpg",
 	["pokemon","pokemon rural/urban"],
-	[{"Height":"118cm","Type":"Grass/Ground","Ability":"Sandy Petals\nSpecial: Muddy Dash\nStar Move: River of Dirt"}]
+	[{"Height":"118cm","Type":"Grass/Ground","Ability":"Sandy Petals","Special":"Muddy Dash","Star Move":"River of Dirt"}]
 	],
 	[
 	"Therracine",
