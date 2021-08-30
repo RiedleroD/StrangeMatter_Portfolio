@@ -17,6 +17,13 @@
 	""
 	],
 	[
+	"Kraken",
+	["$kraken_preview.avif","$kraken_preview.webp","$kraken_preview.jpg"],
+	"$kraken.jpg",
+	["oblivion"],
+	"PROJECT OBLIVION #20\n\nName: Kraken\nSex: f\nClass: (HYDRAULIC)\nSize: minimum\nWeight: heavy\n\nYeah so the kraken, while not being seen, is confirmed to be in captivity by monarch in the events of KOTM."
+	],
+	[
 	"Methuselah",
 	["$methuselah_preview.avif","$methuselah_preview.webp","$methuselah_preview.jpg"],
 	"$methuselah.jpg",
