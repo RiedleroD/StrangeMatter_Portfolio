@@ -17,6 +17,13 @@
 	""
 	],
 	[
+	"Megaguirus",
+	["$megaguirus_preview.avif","$megaguirus_preview.webp","$megaguirus_preview.jpg"],
+	"$megaguirus.jpg",
+	["oblivion"],
+	"PROJECT OBLIVION #16\n\nName: Megaguirus\nSex: f\nClass: <AERIAL>\nSize: minimum\nWeight: light\n\nThese claws were a pain in my arse"
+	],
+	[
 	"Titanosaurus",
 	["$titanosaurus_preview.avif","$titanosaurus_preview.webp","$titanosaurus_preview.jpg"],
 	"$titanosaurus.jpg",
