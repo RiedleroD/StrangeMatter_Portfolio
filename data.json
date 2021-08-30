@@ -17,6 +17,13 @@
 	""
 	],
 	[
+	"Behemoth",
+	["$behemoth_preview.avif","$behemoth_preview.webp","$behemoth_preview.jpg"],
+	"$behemoth.jpg",
+	["oblivion"],
+	"PROJECT OBLIVION #18\n\nName: Behemoth\nSex: m\nClass: [PHYSICAL]\nSize: maximum\nWeight: heavy\n\nIt’s plant life not snot"
+	],
+	[
 	"Scylla",
 	["$scylla_preview.avif","$scylla_preview.webp","$scylla_preview.jpg"],
 	"$scylla.jpg",
