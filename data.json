@@ -24,7 +24,7 @@
 	],
 	[
 	"Red",
-	["$red_preview.jpg","$red_preview.webp","$red_preview.avif"],
+	["$red_preview.avif","$red_preview.webp","$red_preview.jpg"],
 	"red.jpg",
 	"PROJECT OBLIVION #13\n\nName: Red\nSex: m\nClass: {BLAZING}\nSize: medium\nWeight: light\nCameo theme/s:\n - Red (Theme A)\n - Red Rage\n\n*R U N*"
 	],
