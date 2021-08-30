@@ -17,6 +17,13 @@
 	""
 	],
 	[
+	"Muto",
+	["$muto_preview.avif","$muto_preview.webp","$muto_preview.jpg"],
+	"$muto.jpg",
+	["oblivion"],
+	"PROJECT OBLIVION #11\n\nName: Muto\nSex: f\nClass: (HYDRAULIC)\nSize: medium\nWeight: light\n\nDon’t ask where the Male Muto or Muto prime is, I’m not doing them."
+	],
+	[
 	"King Kong",
 	["$kingkong_preview.avif","$kingkong_preview.webp","$kingkong_preview.jpg"],
 	"$kingkong.jpg",
