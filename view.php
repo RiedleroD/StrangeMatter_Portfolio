@@ -35,6 +35,15 @@
 			#tagntext{
 				width:100%;
 			}
+			#tagntext>p{
+				margin:0 0.5em 0 0;
+				text-align:justify;
+				text-align-last:left;
+			}
+			#tagntext>ul{
+				margin:0.2em 0.2em;
+				padding-left:1em;
+			}
 			#tagbox{
 				float:right;
 				max-width:15em;
@@ -59,11 +68,6 @@
 				color:#151515;
 				border-color:#418BA5;
 				background-color:#418BA5;
-			}
-			#desc{
-				margin:0 0.5em 0 0;
-				text-align:justify;
-				text-align-last:left;
 			}
 		</style>
 	</head>
@@ -96,8 +100,8 @@
 							}
 						?>
 					</div>
-					<p id="desc">
-						<?php echo escape($desc) ?>
+					<p>
+						<?php echo parse_desc($desc) ?>
 					</p>
 				</div>
 			</div>

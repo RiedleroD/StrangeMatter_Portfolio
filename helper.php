@@ -5,6 +5,19 @@ function escape($text){
 function get_data(){
 	return json_decode(file_get_contents("https://raw.githubusercontent.com/RiedleroD/StrangeMatter_Portfolio/data/data.json"),true,512,JSON_THROW_ON_ERROR);
 }
+function parse_desc($desc){
+	$desc=escape($desc);
+	//lists
+	$desc=preg_replace("/(<br\\/?>|^) - ([^<>]*)/","<li>\\2</li>",$desc);
+	$desc=preg_replace("/((<li>[^<>]*<\\/li>)+)(<br\\/?>)?/","</p><ul>\\1</ul><p>",$desc);
+	//links
+	$desc=preg_replace("/\\[([^<>\\]]*)\\]\\(([^<>\\)]*)\\)/","<a href=\"\\2\">\\1</a>",$desc);
+	//bold
+	$desc=preg_replace("/\\*([^<>]*)\\*/","<b>\\1</b>",$desc);
+	//italic
+	$desc=preg_replace("/_([^<>]*)_/","<i>\\1</i>",$desc);
+	return $desc;
+}
 function parse_source($src){
 	if($src[0] == '$'){
 		return "https://raw.githubusercontent.com/RiedleroD/StrangeMatter_Portfolio/data/imgs/".urlencode(ltrim($src,'$'));
