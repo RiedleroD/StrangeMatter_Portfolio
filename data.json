@@ -17,6 +17,12 @@
 	""
 	],
 	[
+	"Mecha Godzilla",
+	["$mechagodzilla_preview.avif","$mechagodzilla_preview.webp","$mechagodzilla_preview.jpg"],
+	"$mechagodzilla.jpg",
+	"PROJECT OBLIVION #14\n\nName: Mecha Godzilla\nSex: n\nClass: {BLAZING}\nSize: medium\nWeight: heavy\n\nBop boopity bit, M.Godzilla is the shit"
+	],
+	[
 	"Red",
 	["$red_preview.jpg","$red_preview.webp","$red_preview.avif"],
 	"red.jpg",
