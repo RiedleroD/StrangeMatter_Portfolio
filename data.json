@@ -17,6 +17,13 @@
 	""
 	],
 	[
+	"Scylla",
+	["$scylla_preview.avif","$scylla_preview.webp","$scylla_preview.jpg"],
+	"$scylla.jpg",
+	["oblivion"],
+	"PROJECT OBLIVION #17\n\nName: Scylla\nSex: f\nClass: (HYDRAULIC)\nSize: Minimum\nWeight: heavy\n\nDon’t ask why she’s those colours… blame it on the containment crew…"
+	],
+	[
 	"Megaguirus",
 	["$megaguirus_preview.avif","$megaguirus_preview.webp","$megaguirus_preview.jpg"],
 	"$megaguirus.jpg",
