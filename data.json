@@ -70,11 +70,9 @@
 	["$red_preview.avif","$red_preview.webp","$red_preview.jpg"],
 	"$red.jpg",
 	["oblivion"],
-	 [
-	 "PROJECT OBLIVION #13\n\nName: Red\nSex: m\nClass: {BLAZING}\nSize: medium\nWeight: light\nCameo theme/s:",
-	 ["Red (Theme A)","Red Rage"],
-	 "\n*R U N*"
-	 ]
+	 ["PROJECT OBLIVION #13",
+	 {"Name":"Red","Sex":"m","Class":"{BLAZING}","Size":"medium","Weight":"light","Cameo theme/s":["Red (Theme A)","Red Rage"]},
+	 "*R U N*"]
 	],
 	[
 	"Megalon",
