@@ -21,49 +21,63 @@
 	["$kraken_preview.avif","$kraken_preview.webp","$kraken_preview.jpg"],
 	"$kraken.jpg",
 	["oblivion"],
-	"PROJECT OBLIVION #20\n\nName: Kraken\nSex: f\nClass: (HYDRAULIC)\nSize: minimum\nWeight: heavy\n\nYeah so the kraken, while not being seen, is confirmed to be in captivity by monarch in the events of KOTM."
+	 ["PROJECT OBLIVION #20",
+	 {"Name":"Kraken","Sex":"f","Class":"(HYDRAULIC)","Size":"minimum","Weight":"heavy"},
+	 "Yeah so the kraken, while not being seen, is confirmed to be in captivity by monarch in the events of KOTM."]
 	],
 	[
 	"Methuselah",
 	["$methuselah_preview.avif","$methuselah_preview.webp","$methuselah_preview.jpg"],
 	"$methuselah.jpg",
 	["oblivion"],
-	"PROJECT OBLIVION #19\n\nName: Methuselah\nSex: m\nClass: [PHYSICAL]\nSize: maximum\nWeight: heavy\n\nKinda sus"
+	 ["PROJECT OBLIVION #19",
+	 {"Name":"Methuselah","Sex":"m","Class":"[PHYSICAL]","Size":"maximum","Weight":"heavy"},
+	 "Kinda sus"]
 	],
 	[
 	"Behemoth",
 	["$behemoth_preview.avif","$behemoth_preview.webp","$behemoth_preview.jpg"],
 	"$behemoth.jpg",
 	["oblivion"],
-	"PROJECT OBLIVION #18\n\nName: Behemoth\nSex: m\nClass: [PHYSICAL]\nSize: maximum\nWeight: heavy\n\nIt’s plant life not snot"
+	 ["PROJECT OBLIVION #18",
+	 {"Name":"Behemoth","Sex":"m","Class":"[PHYSICAL]","Size":"maximum","Weight":"heavy"},
+	 "It’s plant life not snot"]
 	],
 	[
 	"Scylla",
 	["$scylla_preview.avif","$scylla_preview.webp","$scylla_preview.jpg"],
 	"$scylla.jpg",
 	["oblivion"],
-	"PROJECT OBLIVION #17\n\nName: Scylla\nSex: f\nClass: (HYDRAULIC)\nSize: Minimum\nWeight: heavy\n\nDon’t ask why she’s those colours… blame it on the containment crew…"
+	 ["PROJECT OBLIVION #17",
+	 {"Name":"Scylla","Sex":"f","Class":"(HYDRAULIC)","Size":"Minimum","Weight":"heavy"},
+	 "Don’t ask why she’s those colours… blame it on the containment crew…"]
 	],
 	[
 	"Megaguirus",
 	["$megaguirus_preview.avif","$megaguirus_preview.webp","$megaguirus_preview.jpg"],
 	"$megaguirus.jpg",
 	["oblivion"],
-	"PROJECT OBLIVION #16\n\nName: Megaguirus\nSex: f\nClass: <AERIAL>\nSize: minimum\nWeight: light\n\nThese claws were a pain in my arse"
+	 ["PROJECT OBLIVION #16",
+	 {"Name":"Megaguirus","Sex":"f","Class":"<AERIAL>","Size":"minimum","Weight":"light"},
+	 "These claws were a pain in my arse"]
 	],
 	[
 	"Titanosaurus",
 	["$titanosaurus_preview.avif","$titanosaurus_preview.webp","$titanosaurus_preview.jpg"],
 	"$titanosaurus.jpg",
 	["oblivion"],
-	"PROJECT OBLIVION #15\n\nName: Titanosaurus\nSex: m\nClass: (HYDRAULIC)\nSize: maximum\nWeight: light\n\nBurger King foot lettuce"
+	 ["PROJECT OBLIVION #15",
+	 {"Name":"Titanosaurus","Sex":"m","Class":"(HYDRAULIC)","Size":"maximum","Weight":"light"},
+	 "Burger King foot lettuce"]
 	],
 	[
 	"Mecha Godzilla",
 	["$mechagodzilla_preview.avif","$mechagodzilla_preview.webp","$mechagodzilla_preview.jpg"],
 	"$mechagodzilla.jpg",
 	["oblivion"],
-	"PROJECT OBLIVION #14\n\nName: Mecha Godzilla\nSex: n\nClass: {BLAZING}\nSize: medium\nWeight: heavy\n\nBop boopity bit, M.Godzilla is the shit"
+	 ["PROJECT OBLIVION #14",
+	 {"Name":"Mecha Godzilla","Sex":"n","Class":"{BLAZING}","Size":"medium","Weight":"heavy"},
+	 "Bop boopity bit, M.Godzilla is the shit"]
 	],
 	[
 	"Red",
@@ -79,140 +93,172 @@
 	["$megalon_preview.avif","$megalon_preview.webp","$megalon_preview.jpg"],
 	"$megalon.jpg",
 	["oblivion"],
-	"PROJECT OBLIVION #12\n\nName: Megalon\nSex: m\nClass: [PHYSICAL]\nSize: medium\nWeight: heavy\n\nI accidentally made him thicc"
+	 ["PROJECT OBLIVION #12",
+	 {"Name":"Megalon","Sex":"m","Class":"[PHYSICAL]","Size":"medium","Weight":"heavy"},
+	 "I accidentally made him thicc"]
 	],
 	[
 	"Muto",
 	["$muto_preview.avif","$muto_preview.webp","$muto_preview.jpg"],
 	"$muto.jpg",
 	["oblivion"],
-	"PROJECT OBLIVION #11\n\nName: Muto\nSex: f\nClass: (HYDRAULIC)\nSize: medium\nWeight: light\n\nDon’t ask where the Male Muto or Muto prime is, I’m not doing them."
+	 ["PROJECT OBLIVION #11",
+	 {"Name":"Muto","Sex":"f","Class":"(HYDRAULIC)","Size":"medium","Weight":"light"},
+	 "Don’t ask where the Male Muto or Muto prime is, I’m not doing them."]
 	],
 	[
 	"King Kong",
 	["$kingkong_preview.avif","$kingkong_preview.webp","$kingkong_preview.jpg"],
 	"$kingkong.jpg",
 	["oblivion"],
-	"PROJECT OBLIVION #10\n\nName: King Kong\nSex: m\nClass: [PHYSICAL]\nSize: medium\nWeight: light\n\nGo back, I want to be monke!"
+	 ["PROJECT OBLIVION #10",
+	 {"Name":"King Kong","Sex":"m","Class":"[PHYSICAL]","Size":"medium","Weight":"light"},
+	 "Go back, I want to be monke!"]
 	],
 	[
 	"Battra",
 	["$battra_preview.avif","$battra_preview.webp","$battra_preview.jpg"],
 	"$battra.jpg",
 	["oblivion"],
-	"PROJECT OBLIVION #09\n\nName: Battra\nSex: m\nClass: <AERIAL>\nSize: minimum\nWeight: light\n\nThe cool kind of edgy"
+	 ["PROJECT OBLIVION #09",
+	 {"Name":"Battra","Sex":"m","Class":"<AERIAL>","Size":"minimum","Weight":"light"},
+	 "The cool kind of edgy"]
 	],
 	[
 	"Kumunga",
 	["$kumunga_preview.avif","$kumunga_preview.webp","$kumunga_preview.jpg"],
 	"$kumunga.jpg",
 	["oblivion"],
-	"PROJECT OBLIVION #08\n\nName: Kumunga\nSex: f\nClass: [PHYSICAL]\nSize: medium\nWeight: leight\n\n*Australia intensifies*"
+	 ["PROJECT OBLIVION #08",
+	 {"Name":"Kumunga","Sex":"f","Class":"[PHYSICAL]","Size":"medium","Weight":"leight"},
+	 "_Australia intensifies_"]
 	],
 	[
 	"Gigan",
 	["$gigan_preview.avif","$gigan_preview.webp","$gigan_preview.jpg"],
 	"$gigan.jpg",
 	["oblivion"],
-	"PROJECT OBLIVION #07\n\nName: Gigan\nSex: m\nClass: [PHYSICAL]\nSize: medium\nWeight: leight\n\nAlien cyborg penguin"
+	 ["PROJECT OBLIVION #07",
+	 {"Name":"Gigan","Sex":"m","Class":"[PHYSICAL]","Size":"medium","Weight":"leight"},
+	 "Alien cyborg penguin"]
 	],
 	[
 	"Biollante",
 	["$biollante_preview.avif","$biollante_preview.webp","$biollante_preview.jpg"],
 	"$biollante.jpg",
 	["oblivion"],
-	"PROJECT OBLIVION #06\n\nName: Biollante\nSex: f\nClass: (HYDRAULIC)\nSize: Maximum\nWeight: heavy\n\nBotany."
+	 ["PROJECT OBLIVION #06",
+	 {"Name":"Biollante","Sex":"f","Class":"(HYDRAULIC)","Size":"Maximum","Weight":"heavy"},
+	 "Botany."]
 	],
 	[
 	"Anguirus",
 	["$anguirus_preview.avif","$anguirus_preview.wepb","$anguirus_preview.jpg"],
 	"$anguirus.jpg",
 	["oblivion"],
-	"PROJECT OBLIVION #05\n\nName: Anguirus\nSex: m\nClass: [PHYSICAL]\nSize: medium\nWeight: light\n\nSpikey turtle armadillo"
+	 ["PROJECT OBLIVION #05",
+	 {"Name":"Anguirus","Sex":"m","Class":"[PHYSICAL]","Size":"medium","Weight":"light"},
+	 "Spikey turtle armadillo"]
 	],
 	[
 	"Godzilla",
 	["$godzilla_preview.avif","$godzilla_preview.webp","$godzilla_preview.jpg"],
 	"$godzilla.jpg",
 	["oblivion"],
-	"PROJECT OBLIVION #04\n\nName: Godzilla\nSex: m\nClass: (HYDRAULIC)\nSize: medium\nWeight: heavy\n\nNow made with chemical waste instead of radiation and nuclear energy"
+	 ["PROJECT OBLIVION #04",
+	 {"Name":"Godzilla","Sex":"m","Class":"(HYDRAULIC)","Size":"medium","Weight":"heavy"},
+	 "Now made with chemical waste instead of radiation and nuclear energy"]
 	],
 	[
 	"Rodan",
 	["$rodan_preview.avif","$rodan_preview.webp","$rodan_preview.jpg"],
 	"$rodan.jpg",
 	["oblivion"],
-	"PROJECT OBLIVION #03\n\nName: Rodan\nSex: m\nClass: {BLAZING}\nSize: minimum\nWeight: light\n\nMolten chicken"
+	 ["PROJECT OBLIVION #03",
+	 {"Name":"Rodan","Sex":"m","Class":"{BLAZING}","Size":"minimum","Weight":"light"},
+	 "Molten chicken"]
 	],
 	[
 	"King Ghidorah",
 	["$ghidorah_preview.avif","$ghidorah_preview.webp","$ghidorah_preview.jpg"],
 	"$ghidorah.jpg",
 	["oblivion"],
-	"PROJECT OBLIVION #02\n\nName: King Ghidorah\nSex: m\nClass: <AERIAL>\nSize: maximum\nWeight: light\n\nI only gave him arms so he can have a close range attack"
+	 ["PROJECT OBLIVION #02",
+	 {"Name":"King Ghidorah","Sex":"m","Class":"<AERIAL>","Size":"maximum","Weight":"light"},
+	 "I only gave him arms so he can have a close range attack"]
 	],
 	[
 	"Mothra",
 	["$mothra_preview.avif","$mothra_preview.webp","$mothra_preview.jpg"],
 	"$mothra.jpg",
 	["oblivion"],
-	"PROJECT OBLIVION #01\n\nName: Mothra\nSex: f\nClass: <Aerial>\nSize: minimum\nWeight: light\n\nAbsolutely Graceful"
+	 ["PROJECT OBLIVION #01",
+	 {"Name":"Mothra","Sex":"f","Class":"<Aerial>","Size":"minimum","Weight":"light"},
+	 "Absolutely Graceful"]
 	],
 	[
 	"Starstruck Taiparson",
 	"$taiparson_starstruck_preview.jpg",
 	"/pokemon_RU/imgs/pkmn/taiparson_starstruck.jpg",
 	["pokemon","pokemon rural/urban"],
-	"Pronounced Tie-Parse-On (taɪpɑːsən)\nThe name comes from Taipan (a type of snake), Arson and Poison.\n\nType: Fire/Poison\nAbility: Smouldering Smog\nSpecial: Blackened Burst\nStar Move: Reign of Arson"
+	 ["Pronounced Tie-Parse-On (taɪpɑːsən)\nThe name comes from Taipan (a type of snake), Arson and Poison."
+	 {"Type":"Fire/Poison","Ability":"Smouldering Smog","Special":"Blackened Burst","Star Move":"Reign of Arson"}
+	 ]
 	],
 	[
 	"Taiparson",
 	["$taiparson_preview.avif","$taiparson_preview.webp","$taiparson_preview.jpg"],
 	["$taiparson.avif","/pokemon_RU/imgs/pkmn/taiparson.jpg"],
 	["pokemon","pokemon rural/urban"],
-	"Pronounced Tie-Parse-On (taɪpɑːsən)\nThe name comes from Taipan (a type of snake), Arson and Poison.\n\nHeight: 177cm\nWeight: 8kg\nType: Fire/Poison\nAbility: Smouldering Smog\nSpecial: Blackened Burst\nStar Move: Reign of Arson"
+	 ["Pronounced Tie-Parse-On (taɪpɑːsən)\nThe name comes from Taipan (a type of snake), Arson and Poison.",
+	 {"Height":"177cm","Weight":"8kg","Type":"Fire/Poison","Ability":"Smouldering Smog","Special":"Blackened Burst","Star Move":"Reign of Arson"}
+	 ]
 	],
 	[
 	"Hissarette",
 	"$hissarette_preview.jpg",
 	"/pokemon_RU/imgs/pkmn/hissarette.jpg",
 	["pokemon","pokemon rural/urban"],
-	"Pronounced Hiss-ah-ret\nThe name comes from hiss and cigarette\n\nHeight: 132cm\nWeight: 5kg\nType: Fire/Poison\nAbility: Smouldering Smog"
+	 ["Pronounced Hiss-ah-ret\nThe name comes from hiss and cigarette",
+	 {"Height":"132cm","Weight":"5kg","Type":"Fire/Poison","Ability":"Smouldering Smog"}
+	 ]
 	],
 	[
 	"Budletar",
 	"$budletar_preview.jpg",
 	"/pokemon_RU/imgs/pkmn/budletar.jpg",
 	["pokemon","pokemon rural/urban"],
-	"Pronounced Bud-let-ah\nThe name comes from (Cigarette) butt, snaklet, cigar and tar.\n\nHeight: 93cm\nWeight: 2.5kg\nType: Fire\nAbility: Smouldering Smog"
+	 ["Pronounced Bud-let-ah\nThe name comes from (Cigarette) butt, snaklet, cigar and tar.",
+	 {"Height":"93cm","Weight":"2.5kg","Type":"Fire","Ability":"Smouldering Smog"}
+	 ]
 	],
 	[
 	"Starstruck Thyramire",
 	"$thyramire_starstruck_preview.jpg",
 	"/pokemon_RU/imgs/pkmn/thyramire_starstruck.jpg",
 	["pokemon","pokemon rural/urban"],
-	"Type: Grass/Ground\nAbility: Sandy Petals\nSpecial: Muddy Dash\nStar Move: River of Dirt"
+	[{"Type":"Grass/Ground","Ability":"Sandy Petals","Special":"Muddy Dash","Star Move":"River of Dirt"}]
 	],
 	[
 	"Thyramire",
 	"$thyramire_preview.jpg",
 	"/pokemon_RU/imgs/pkmn/thyramire.jpg",
 	["pokemon","pokemon rural/urban"],
-	"Height: 118cm\nType: Grass/Ground\nAbility: Sandy Petals\nSpecial: Muddy Dash\nStar Move: River of Dirt"
+	[{"Height":"118cm","Type":"Grass/Ground","Ability":"Sandy Petals\nSpecial: Muddy Dash\nStar Move: River of Dirt"}]
 	],
 	[
 	"Therracine",
 	"$therracine_preview.jpg",
 	"/pokemon_RU/imgs/pkmn/therracine.jpg",
 	["pokemon","pokemon rural/urban"],
-	"Height: 116cm\nType: Grass/Ground\nAbility: Sandy Petals"
+	[{"Height":"116cm","Type":"Grass/Ground","Ability":"Sandy Petals"}]
 	],
 	[
 	"Shrubpy",
 	"$shrubpy_preview.jpg",
 	"/pokemon_RU/imgs/pkmn/shrubpy.jpg",
 	["pokemon","pokemon rural/urban"],
-	"Height: 88cm\nType: Grass/Ground\nAbility: Sandy Petals"
+	[{"Height":"88cm","Type":"Grass/Ground","Ability":"Sandy Petals"}]
 	]
 ]
 }
