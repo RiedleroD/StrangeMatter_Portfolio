@@ -4,8 +4,8 @@
 "imgs":[
 	[
 	"The Moon",
-	"$majoras-moon_preview.jpg",
-	"$majoras-moon.png",
+	["$majoras-moon_preview.avif","$majoras-moon_preview.webp","$majoras-moon_preview.jpg"],
+	["$majoras-moon.avif","$majoras-moon.png"],
 	["oblivion"],
 	""
 	],
