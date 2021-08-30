@@ -15,26 +15,43 @@
 		<main>
 			<h2>Collections</h2>
 			<?php
-				$firstimg=$data["imgs"][0][1];
-				$firstimg_parsed=parse_source($firstimg);
-				echo "<a href=\"./gallery.php\"><img src=\"$firstimg_parsed\"/><span>All drawings</span></a>";
-				$seen_collections=array();
-				foreach($data["imgs"] as list($title,$preview,$postview,$collections,$desc)){
-					foreach($collections as $collection){
-						if(array_key_exists($collection,$seen_collections)){
-							array_push($seen_collections[$collection],$preview);
+				$firstimg=generate_picture($data["imgs"][0][1]);
+				echo "<a href=\"./gallery.php\">$firstimg<span>All drawings</span></a>";
+				$i=0;
+				$showcase=array();
+				$usedcase=array(0 => 1);
+				foreach($data["imgs"] as list($title,$preview,$postview,$tags,$desc)){
+					foreach($tags as $tag){
+						if(array_key_exists($tag,$showcase)){
+							$j=$showcase[$tag];
+							if(array_key_exists($i,$usedcase)){
+								if($usedcase[$j]>$usedcase[$i]){
+									$showcase[$tag]=$i;
+									$usedcase[$i]++;
+									$usedcase[$j]--;
+								}
+							}else{
+								if($usedcase[$j]>1){
+									$showcase[$tag]=$i;
+									$usedcase[$i]=1;
+									$usedcase[$j]--;
+								}
+							}
 						}else{
-							$seen_collections[$collection]=array($preview);
+							$showcase[$tag]=$i;
+							if(array_key_exists($i,$usedcase)){
+								$usedcase[$i]++;
+							}else{
+								$usedcase[$i]=1;
+							}
 						}
 					}
+					$i++;
 				}
-				$seen_previews=array($firstimg);
-				foreach($seen_collections as $collection => $previews){
-					do{
-						$preview=array_shift($previews);
-					}while(count($previews)>0 and in_array($preview,$seen_previews));
-					array_push($seen_previews,$preview);
-					echo "<a href=\"./gallery.php?c=$collection\">".generate_picture($preview)."<span>$collection</span></a>";
+				unset($usedcase);
+				foreach($showcase as $tag => $i){
+					list($title,$preview,$postview,$tags,$desc)=$data["imgs"][$i];
+					echo "<a href=\"./gallery.php?c=$tag\">".generate_picture($preview)."<span>$tag</span></a>";
 				}
 			?>
 		</main>
