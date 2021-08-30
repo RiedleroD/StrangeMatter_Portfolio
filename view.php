@@ -100,9 +100,7 @@
 							}
 						?>
 					</div>
-					<p>
-						<?php echo parse_desc($desc) ?>
-					</p>
+					<?php echo parse_desc($desc)?>
 				</div>
 			</div>
 		</main>

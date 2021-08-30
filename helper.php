@@ -5,11 +5,8 @@ function escape($text){
 function get_data(){
 	return json_decode(file_get_contents("https://raw.githubusercontent.com/RiedleroD/StrangeMatter_Portfolio/data/data.json"),true,512,JSON_THROW_ON_ERROR);
 }
-function parse_desc($desc){
+function parse_desc_text($desc){
 	$desc=escape($desc);
-	//lists
-	$desc=preg_replace("/(<br\\/?>|^) - ([^<>]*)/","<li>\\2</li>",$desc);
-	$desc=preg_replace("/((<li>[^<>]*<\\/li>)+)(<br\\/?>)?/","</p><ul>\\1</ul><p>",$desc);
 	//links
 	$desc=preg_replace("/\\[([^<>\\]]*)\\]\\(([^<>\\)]*)\\)/","<a href=\"\\2\">\\1</a>",$desc);
 	//bold
@@ -17,6 +14,33 @@ function parse_desc($desc){
 	//italic
 	$desc=preg_replace("/_([^<>]*)_/","<i>\\1</i>",$desc);
 	return $desc;
+}
+function parse_desc($desc){
+	if(is_array($desc)){
+		$out="";
+		foreach($desc as $p){//paragraphs
+			if(is_array($p)){
+				if(is_int(array_keys($p)[0])){
+					$out.="<ul>";
+					foreach($p as $item){
+						$out.="<li>".parse_desc_text($item)."</li>";
+					}
+					$out.="</ul>";
+				}else{
+					$out.="<aside>";
+					foreach($p as $key=>$val){
+						$out.="<div>".parse_desc_text($key)."</div><div>".parse_desc_text($val)."</div>";
+					}
+					$out.="</aside>";
+				}
+			}else{
+				$out.="<p>".parse_desc_text($p)."</p>";
+			}
+		}
+		return $out;
+	}else{
+		return "<p>".parse_desc_text($desc)."</p>";
+	}
 }
 function parse_source($src){
 	if($src[0] == '$'){
