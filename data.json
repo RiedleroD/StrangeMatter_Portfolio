@@ -41,18 +41,21 @@
 	"Mecha Godzilla",
 	["$mechagodzilla_preview.avif","$mechagodzilla_preview.webp","$mechagodzilla_preview.jpg"],
 	"$mechagodzilla.jpg",
+	["oblivion"],
 	"PROJECT OBLIVION #14\n\nName: Mecha Godzilla\nSex: n\nClass: {BLAZING}\nSize: medium\nWeight: heavy\n\nBop boopity bit, M.Godzilla is the shit"
 	],
 	[
 	"Red",
 	["$red_preview.avif","$red_preview.webp","$red_preview.jpg"],
 	"red.jpg",
+	["oblivion"],
 	"PROJECT OBLIVION #13\n\nName: Red\nSex: m\nClass: {BLAZING}\nSize: medium\nWeight: light\nCameo theme/s:\n - Red (Theme A)\n - Red Rage\n\n*R U N*"
 	],
 	[
 	"Megalon",
 	["$megalon_preview.avif","$megalon_preview.webp","$megalon_preview.jpg"],
 	"megalon.jpg",
+	["oblivion"],
 	"PROJECT OBLIVION #12\n\nName: Megalon\nSex: m\nClass: [PHYSICAL]\nSize: medium\nWeight: heavy\n\nI accidentally made him thicc"
 	],
 	[
