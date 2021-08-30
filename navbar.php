@@ -5,7 +5,7 @@
 	<?php
 		include("helper.php");
 		$data = get_data();
-		$rand = rand(0,count($data)-1);
+		$rand = rand(0,count($data["imgs"])-1);
 		echo "<a href=\"./view.php?id=$rand\">Random Image</a>"
 	?>
 </nav>
