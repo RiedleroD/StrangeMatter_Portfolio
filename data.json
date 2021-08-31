@@ -1,6 +1,7 @@
 {
 "bio":"TODO: write bio",
-"pfp":"$pfp.png",
+"pfp":["$pfp.avif","$pfp.png"],
+"favicon":["$favicon.avif","$favicon.webp","$favicon.jpg"],
 "imgs":[
 	[
 	"The Moon",
