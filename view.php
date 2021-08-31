@@ -5,8 +5,12 @@
 		<?php
 			include("helper.php");
 			echo generate_favicon($data["favicon"]);
+			$id=$_GET["id"];
+			list($title,$preview,$postview,$collections,$desc)=$data["imgs"][(sizeof($data["imgs"])-$id)-1];
+			$postview=parse_source($postview);
+			//$preview=parse_source($preview); // not needed rn
+			echo "<title>View: $title</title>";
 		?>
-		<title>Placeholder image</title>
 		<style>
 			@import "./global.css";
 			/*site-specific style*/
@@ -100,13 +104,7 @@
 		</style>
 	</head>
 	<body>
-		<?php 
-			echo build_navbar();
-			$id=$_GET["id"];
-			list($title,$preview,$postview,$collections,$desc)=$data["imgs"][(sizeof($data["imgs"])-$id)-1];
-			$postview=parse_source($postview);
-			//$preview=parse_source($preview); // not needed rn
-		?>
+		<?php echo build_navbar() ?>
 		<main>
 			<div id="topview">
 				<div id="imgview">
