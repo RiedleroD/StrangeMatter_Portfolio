@@ -69,7 +69,7 @@ function generate_picture($src){
 function generate_favicon($img){
 	if(is_array($img)){
 		$out="";
-		foreach($img as $src){
+		foreach(array_reverse($img) as $src){
 			$out.=generate_favicon($src);
 		}
 		return $out;
