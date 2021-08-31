@@ -17,7 +17,7 @@
 	text-align-last:center;
 	-webkit-text-align-last:center;
 }
-#pfp{
+img{
 	margin-top:5em;
 	width:16em;
 	height:16em;
@@ -26,7 +26,7 @@
 	align-self:center;
 	background-color:#000;
 }
-#pfp+span{
+img+span{
 	font-size:3em;
 	align-self:center;
 	margin-bottom:3rem;
@@ -39,10 +39,10 @@
 			include("navbar.php");
 		?>
 		<div id="main">
-			<img id="pfp" src="<?php echo $data["pfp"] ?>"/>
+			<?php echo generate_picture($data["pfp"]) ?>
 			<span>StrangeMatter</span>
 			<p style="font-size:1.5em">
-				<?php echo escape($data["bio"]) ?>
+				<?php echo parse_desc($data["bio"]) ?>
 			</p>
 		</div>
 	</body>
