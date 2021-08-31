@@ -4,7 +4,7 @@
 		<meta charset="UTF-8"/>
 		<?php
 			include("helper.php");
-			echo generate_favicon($img["pfp"]);
+			echo generate_favicon($data["favicon"]);
 		?>
 		<title>StrangeMatter: Collections</title>
 		<style>

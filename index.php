@@ -4,7 +4,7 @@
 		<meta charset="UTF-8"/>
 		<?php
 			include("helper.php");
-			echo generate_favicon($img["pfp"]);
+			echo generate_favicon($data["favicon"]);
 		?>
 		<title>StrangeMatter</title>
 		<style>
@@ -21,16 +21,20 @@
 	text-align-last:center;
 	-webkit-text-align-last:center;
 }
-img{
+img,
+picture>img{
 	margin-top:5em;
 	width:16em;
 	height:16em;
 	border-radius:8em;
 	filter:drop-shadow(0 0 0.3rem #000);
-	align-self:center;
 	background-color:#000;
 }
-img+span{
+img,picture{
+	align-self:center;
+}
+img+span,
+picture+span{
 	font-size:3em;
 	align-self:center;
 	margin-bottom:3rem;
