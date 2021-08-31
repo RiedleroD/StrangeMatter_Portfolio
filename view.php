@@ -2,6 +2,10 @@
 <html>
 	<head>
 		<meta charset="UTF-8" />
+		<?php
+			include("helper.php");
+			echo generate_favicon($img["pfp"]);
+		?>
 		<title>Placeholder image</title>
 		<style>
 			@import "./global.css";
@@ -97,7 +101,6 @@
 	</head>
 	<body>
 		<?php 
-			include("helper.php");
 			echo build_navbar();
 			$id=$_GET["id"];
 			list($title,$preview,$postview,$collections,$desc)=$data["imgs"][(sizeof($data["imgs"])-$id)-1];

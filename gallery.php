@@ -2,6 +2,10 @@
 <html>
 	<head>
 		<meta charset="UTF-8"/>
+		<?php
+			include("helper.php");
+			echo generate_favicon($img["pfp"]);
+		?>
 		<title>StrangeMatter: Gallery</title>
 		<style>
 			@import "./global.css";
@@ -14,7 +18,6 @@
 	</head>
 	<body>
 		<?php
-		include("helper.php");
 		echo build_navbar();
 		$filter = $_GET["c"];
 		if($filter==null){

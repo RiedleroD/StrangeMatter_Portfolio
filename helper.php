@@ -66,32 +66,47 @@ function generate_picture($src){
 		return "<img src=\"".parse_source($src)."\"/>";
 	}
 }
+function generate_favicon($img){
+	if(is_array($img)){
+		$out="";
+		foreach($img as $src){
+			$out.=generate_favicon($src);
+		}
+		return $out;
+	}else{
+		$mime=get_mime_from_ext($img);
+		$src=parse_source($img);
+		return "<link rel=\"icon\" type=\"$mime\" href=\"$src\"/>";
+	}
+}
 function picture_sources_from_array($arr){
 	$out = "";
 	foreach($arr as $src){
-		$ext = explode('.',$src)[-1];
-		$mime="\" type=\"image/";
-		switch($ext){
-			case "jpg":
-			case "jpeg":
-				$mime.="jpeg";
-				break;
-			case "png":
-				$mime.="png";
-				break;
-			case "webp":
-				$mime.="webp";
-				break;
-			case "avif":
-				$mime.="avif";
-				break;
-			default:
-				$mime="";
-				break;
-		}
-		$out.="<source srcset=\"".parse_source($src).$mime."\"/>";
+		$out.="<source srcset=\"".parse_source($src);
+		$mime=get_mime_from_ext($src);
+		if($mime!=null){
+			$out.="\" type=\"$mime\"/>";
+		}else{
+			$out.="\"/>";
+		};
 	}
 	return $out;
+}
+function get_mime_from_ext($src){
+	$ext = explode('.',$src)[-1];
+	switch($ext){
+		case "jpg":
+		case "jpeg":
+			return "image/jpeg";
+		case "png":
+			return "image/png";
+		case "webp":
+			return "image/webp";
+		case "avif":
+			return "image/avif";
+		default:
+			return null;
+	}
 }
 function build_navbar(){
 	GLOBAL $data;

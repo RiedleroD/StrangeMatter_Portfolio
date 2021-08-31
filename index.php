@@ -2,6 +2,10 @@
 <html>
 	<head>
 		<meta charset="UTF-8"/>
+		<?php
+			include("helper.php");
+			echo generate_favicon($img["pfp"]);
+		?>
 		<title>StrangeMatter</title>
 		<style>
 @import "./global.css";
@@ -36,7 +40,6 @@ img+span{
 	</head>
 	<body>
 		<?php
-			include("helper.php");
 			echo build_navbar();
 		?>
 		<div id="main">
