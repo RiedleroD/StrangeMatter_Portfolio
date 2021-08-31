@@ -1,9 +1,8 @@
 <?php
+$data=json_decode(file_get_contents("https://raw.githubusercontent.com/RiedleroD/StrangeMatter_Portfolio/data/data.json"),true,512,JSON_THROW_ON_ERROR);
+
 function escape($text){
 	return str_replace("\n","<br/>",htmlentities($text));
-}
-function get_data(){
-	return json_decode(file_get_contents("https://raw.githubusercontent.com/RiedleroD/StrangeMatter_Portfolio/data/data.json"),true,512,JSON_THROW_ON_ERROR);
 }
 function parse_desc_text($desc){
 	$desc=escape($desc);
@@ -93,5 +92,9 @@ function picture_sources_from_array($arr){
 		$out.="<source srcset=\"".parse_source($src).$mime."\"/>";
 	}
 	return $out;
+}
+function build_navbar(){
+	$rand = rand(0,count($data["imgs"])-1);
+	return "<nav><a href=\"./\">Home</a><a href=\"./gallery.php\">Gallery</a><a href=\"./collections.php\">Collections</a><a href=\"./view.php?id=$rand\">Random Image</a></nav>";
 }
 ?>

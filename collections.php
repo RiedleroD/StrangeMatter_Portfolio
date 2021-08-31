@@ -10,7 +10,8 @@
 	</head>
 	<body>
 		<?php
-			include("navbar.php");
+			include("helper.php");
+			echo build_navbar();
 		?>
 		<main>
 			<h2>Collections</h2>

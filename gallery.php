@@ -14,7 +14,8 @@
 	</head>
 	<body>
 		<?php
-		include("navbar.php");
+		include("helper.php");
+		echo build_navbar();
 		$filter = $_GET["c"];
 		if($filter==null){
 			$filter="all";

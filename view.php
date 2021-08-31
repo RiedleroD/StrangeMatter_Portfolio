@@ -97,7 +97,8 @@
 	</head>
 	<body>
 		<?php 
-			include("navbar.php");
+			include("helper.php");
+			echo build_navbar();
 			$id=$_GET["id"];
 			list($title,$preview,$postview,$collections,$desc)=$data["imgs"][(sizeof($data["imgs"])-$id)-1];
 			$postview=parse_source($postview);

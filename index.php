@@ -36,7 +36,8 @@ img+span{
 	</head>
 	<body>
 		<?php
-			include("navbar.php");
+			include("helper.php");
+			echo build_navbar();
 		?>
 		<div id="main">
 			<?php echo generate_picture($data["pfp"]) ?>
