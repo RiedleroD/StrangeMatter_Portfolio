@@ -93,7 +93,7 @@ function picture_sources_from_array($arr){
 	return $out;
 }
 function get_mime_from_ext($src){
-	$ext = explode('.',$src)[-1];
+	$ext = end(explode('.',$src));
 	switch($ext){
 		case "jpg":
 		case "jpeg":
