@@ -94,6 +94,7 @@ function picture_sources_from_array($arr){
 	return $out;
 }
 function build_navbar(){
+	GLOBAL $data;
 	$rand = rand(0,count($data["imgs"])-1);
 	return "<nav><a href=\"./\">Home</a><a href=\"./gallery.php\">Gallery</a><a href=\"./collections.php\">Collections</a><a href=\"./view.php?id=$rand\">Random Image</a></nav>";
 }
